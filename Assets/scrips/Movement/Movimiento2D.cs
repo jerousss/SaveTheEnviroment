@@ -3,7 +3,7 @@ using UnityEngine.UIElements;
 
 public class Movimiento2D : MonoBehaviour
 {
-  public Move controles;
+  public Controls controles;
   public Vector2 direccion;
   public Rigidbody2D rb2D;
   public float velocidadMovimiento;
@@ -40,7 +40,7 @@ public class Movimiento2D : MonoBehaviour
         ajustarRotacion(direccion.x);
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja,0f,queEsSuelo);
         animator.SetBool("run",direccion.x != 0);
-        animator.SetBool("jump", !enSuelo);
+        animator.SetBool("saltar", !enSuelo);
     }
     void FixedUpdate()
     {
