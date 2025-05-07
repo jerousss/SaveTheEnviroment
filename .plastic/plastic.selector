@@ -1,4 +1,0 @@
-repository "Save_The_Enviroment/Save_The_Enviroment@4674087449064@cloud"
-  path "/"
-    br "/main"
-    co "/main"
