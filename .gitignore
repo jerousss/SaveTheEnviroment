@@ -17,4 +17,5 @@
 *.opendb
 *.VC.db
 *.pidb.meta
-
+.plastic/
+.vscode/
