@@ -147,6 +147,74 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "ataque",
+            "id": "db48de57-217d-4c6b-aa95-d8869159da5b",
+            "actions": [
+                {
+                    "name": "ataque1",
+                    "type": "Button",
+                    "id": "96872a84-01c1-4346-bcf0-e982c8984f76",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ataque2",
+                    "type": "Button",
+                    "id": "cbde2410-93d3-472d-a5df-4735068a7b46",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ataque3",
+                    "type": "Button",
+                    "id": "e3a7c0d6-823e-45a3-aca3-e99ef53c219a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "21a5b28f-ea80-4234-968b-3fada8910f30",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ataque1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80637b99-48ed-459a-be56-8e715ccbe314",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ataque2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5812ee7f-fbfc-46d0-9ab4-31e02e0154d1",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ataque3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
